@@ -28,8 +28,7 @@ pub fn html() -> String {
         <body>
             {webview_yew_minimal_frontend}
         </body>
-        </html>
-		"#,
+        </html>"#,
         webview_yew_minimal_wasm = inline_wasm(include_bytes!("../static/webview_yew_minimal_frontend.wasm").to_vec()),
         webview_yew_minimal_frontend = inline_script(include_str!("../static/webview_yew_minimal_frontend.js").to_string()),
     )
