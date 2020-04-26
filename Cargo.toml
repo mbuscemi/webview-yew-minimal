@@ -1,0 +1,12 @@
+[package]
+name = "webview_yew_minimal"
+version = "0.1.0"
+authors = ["mbuscemi <matthew.buscemi@gmail.com>"]
+edition = "2018"
+
+[dependencies]
+web-view = "0.6.2"
+rand = "0.7.3"
+
+[dev-dependencies]
+webview_yew_minimal_frontend = { path = "frontend" }
